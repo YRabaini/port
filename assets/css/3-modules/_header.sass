@@ -1,12 +1,30 @@
 header
     height: 450px
-    background: #ccc
-    background-image: "/assets/img/lapland.jpg"
+    background-image: url("/assets/img/lapland.jpg")
+    background-size: 100%
     
-nav
-    a
-        color: #123456
-        display: inline-block
-        margin-left: 20px
-        font-weight: 700
+    nav
+        a
+            color: #123456
+            display: inline-block
+            margin-left: 20px
+            font-weight: 700
+            text-transform: uppercase
+            &:hover
+                color: #ffffff
+
+    h1
+        color: white
         text-transform: uppercase
+        letter-spacing: 0.08em
+        text-align: center
+        span
+            display: inline-block
+            padding: 1em
+            border: white solid 8px
+        
+    h4, h5
+        text-align: center
+        color: #FFF
+        letter-spacing: 0.05em
+        
