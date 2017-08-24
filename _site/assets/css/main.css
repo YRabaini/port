@@ -394,7 +394,7 @@ header {
       font-size: 180%;
       text-transform: uppercase; }
       header nav a:hover {
-        color: #ffffff; }
+        color: black; }
   header h1 {
     color: #fff;
     text-transform: uppercase;
@@ -412,7 +412,18 @@ header {
     padding: 10px; }
 
 footer {
-  background: pink; }
+  background: pink;
+  height: 100px; }
+
+.left {
+  width: 40%;
+  float: left;
+  border-right: 1px solid #333;
+  padding-left: 5%; }
+
+.right {
+  width: 50%;
+  float: right; }
 
 body {
   margin: 0px;
